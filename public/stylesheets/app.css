@@ -3,6 +3,16 @@ header {
     color: #E8FDFF;
 }
 
+header h1 {
+    margin-left: 10px;
+    font-family: 'Style Script', cursive;
+    font-size: 2.5em;
+}
+
+header h1:active {
+    background-color: whitesmoke;
+}
+
 body {
     background-color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
@@ -19,4 +29,21 @@ margin-bottom: 48px;
 
 .finstagram-post .user-info img {
     border-radius: 50%;
+}
+
+a.photo {
+    transition: padding 0.5s;
+}
+
+a.photo:hover {
+    padding: 10px;
+}
+
+li p:hover{
+ background-color:whitesmoke;
+}
+
+article div h2:active {
+    background-color: #E8FDFF;
+    box-shadow: 10%;
 }
